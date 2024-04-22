@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container} from "react-bootstrap";
 import logo from '../img/logo/logoTrest.jpg'
+import {Link} from "react-router-dom";
 
 function HeaderComponent(props) {
     return (
@@ -35,10 +36,10 @@ function HeaderComponent(props) {
                             </a>
                             <ul>
                                 <li>
-                                    <a href="/sertificate">Сертификаты</a>
+                                    <Link to="/sertificate">Сертификаты</Link>
                                 </li>
                                 <li>
-                                    <a href="/fin">Финансовая отчетность</a>
+                                    <Link to="/fin">Финансовая отчетность</Link>
                                 </li>
                                 <li>
                                     <a href="#">Борьба с корупцией</a>
