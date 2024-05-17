@@ -18,16 +18,16 @@ function HeaderComponent(props) {
                             <a href="/" className="active"> Главная </a>
                         </li>
                         <li>
-                            <a href="about.html">О нас</a>
+                            <a href="#footer">О нас</a>
                         </li>
                         <li>
-                            <a href="services.html">Наши услуги</a>
+                            <a href="#services">Наши услуги</a>
                         </li>
                         <li>
-                            <a href="projects.html">Наши объекты</a>
+                            <a href="#projects">Наши объекты</a>
                         </li>
                         <li>
-                            <a href="blog.html">Контакты</a>
+                            <a href="#footer">Контакты</a>
                         </li>
                         <li className="dropdown">
                             <a href="#">
@@ -45,7 +45,7 @@ function HeaderComponent(props) {
                                     <a href="#">Борьба с корупцией</a>
                                 </li>
                                 <li>
-                                    <a href="#">Профсоюзная жизнь</a>
+                                    <Link to="/profUnion">Профсоюзная жизнь</Link>
                                 </li>
                                 <li>
                                     <a href="#">Техника безопасности</a>

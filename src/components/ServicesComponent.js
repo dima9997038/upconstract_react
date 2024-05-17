@@ -19,8 +19,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Возведение сооружений</h3>
                             <p> Возведение сооружений промышленного и гражданского назначения</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -30,8 +30,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Строительство</h3>
                             <p>Строительство зданий и сооружений</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
@@ -41,8 +41,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Демонтаж</h3>
                             <p>Демонтаж зданий и сооружений</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
@@ -52,8 +52,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Переработка </h3>
                             <p>Дробление и переработка строительных отходов</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
@@ -63,8 +63,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Аренда</h3>
                             <p>Предоставление в аренду строительных машин и механизмов, в том числе грузоподъемной, землеройной и другой техники. сдача в аренду производственных помещений, складов, открытых площадок.</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
@@ -74,8 +74,8 @@ function ServicesComponent(props) {
                             </div>
                             <h3>Услуги автотранспорта</h3>
                             <p>Предоставление услуг автотранспортной техники</p>
-                            <a href="service-details.html" className="readmore stretched-link">Подробнее <i
-                                className="bi bi-arrow-right"></i></a>
+                            {/*<a href="service-details.html" className="readmore stretched-link">Подробнее <i*/}
+                            {/*    className="bi bi-arrow-right"></i></a>*/}
                         </div>
                     </div>
                 </div>

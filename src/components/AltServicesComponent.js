@@ -1,7 +1,6 @@
 import React from 'react';
 import altServiceImg1 from '..//img/alt-services/alt-services.jpg'
-import altServiceImg2 from '..//img/alt-services/alt-services-2.jpg'
-import constructionImg1 from "../img/construction/constructions-1.jpg";
+
 
 function AltServicesComponent(props) {
     return (

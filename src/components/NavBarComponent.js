@@ -30,18 +30,18 @@ function NavBarComponent(props) {
                         <li className="mx-3">
                             <a href="/" className="active"> Главная </a>
                         </li>
-                        <li className="mx-3">
-                            <a href="about.html">О нас</a>
-                        </li>
-                        <li className="mx-3">
-                            <a href="services.html">Наши услуги</a>
-                        </li>
-                        <li className="mx-3">
-                            <a href="projects.html">Наши объекты</a>
-                        </li>
-                        <li className="mx-3">
-                            <a href="blog.html">Контакты</a>
-                        </li>
+                        {/*<li className="mx-3">*/}
+                        {/*    <a href="#">О нас</a>*/}
+                        {/*</li>*/}
+                        {/*<li className="mx-3">*/}
+                        {/*    <a href="#services">Наши услуги</a>*/}
+                        {/*</li>*/}
+                        {/*<li className="mx-3">*/}
+                        {/*    <a href="#projects">Наши объекты</a>*/}
+                        {/*</li>*/}
+                        {/*<li className="mx-3">*/}
+                        {/*    <a href="#">Контакты</a>*/}
+                        {/*</li>*/}
                         <li className="dropdown mx-3">
                             <a href="#">
                                 <span>Информация</span>{" "}
@@ -58,7 +58,7 @@ function NavBarComponent(props) {
                                     <a href="#">Борьба с корупцией</a>
                                 </li>
                                 <li>
-                                    <a href="#">Профсоюзная жизнь</a>
+                                    <Link to="/profUnion">Профсоюзная жизнь</Link>
                                 </li>
                                 <li>
                                     <a href="#">Техника безопасности</a>

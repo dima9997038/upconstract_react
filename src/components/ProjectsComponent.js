@@ -1,16 +1,4 @@
 import React from 'react';
-import constructionImg1 from '../img/projects/construction-1.jpg'
-import constructionImg2 from '../img/projects/construction-2.jpg'
-import constructionImg3 from '../img/projects/construction-3.jpg'
-import designImg1 from '../img/projects/design-1.jpg'
-import designImg2 from '../img/projects/design-2.jpg'
-import designImg3 from '../img/projects/design-3.jpg'
-import remodelingImg1 from '../img/projects/remodeling-1.jpg'
-import remodelingImg2 from '../img/projects/remodeling-2.jpg'
-import remodelingImg3 from '../img/projects/remodeling-3.jpg'
-import repairsImg1 from '../img/projects/repairs-1.jpg'
-import repairsImg2 from '../img/projects/repairs-2.jpg'
-import repairsImg3 from '../img/projects/repairs-3.jpg'
 import granitImg from '../img/projects/Granit.jpg'
 import kolcova from '../img/projects/kolcova.jpg'
 import naftan from '../img/projects/naftan.jpg'
@@ -33,14 +21,6 @@ function ProjectsComponent(props) {
 
                 <div className="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry"
                      data-portfolio-sort="original-order">
-
-                    {/*<ul className="portfolio-flters" data-aos="fade-up" data-aos-delay="100">*/}
-                    {/*    <li data-filter="*" className="filter-active">All</li>*/}
-                    {/*    <li data-filter=".filter-remodeling">Remodeling</li>*/}
-                    {/*    <li data-filter=".filter-construction">Construction</li>*/}
-                    {/*    <li data-filter=".filter-repairs">Repairs</li>*/}
-                    {/*    <li data-filter=".filter-design">Design</li>*/}
-                    {/*</ul>*/}
                     <div className="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
                         <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">

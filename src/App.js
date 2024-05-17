@@ -14,6 +14,7 @@ import audit2019Pdf from './img/financeDoc/audit2019.pdf'
 import audit2022Pdf from './img/financeDoc/audit2022.pdf'
 import audit2020Pdf from './img/financeDoc/audit2020.pdf'
 import report2021Pdf from './img/financeDoc/report2021.pdf'
+import ProfUnion from "./pages/ProfUnion";
 function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/sertificate" element={<Sertificate />} />
         <Route path="/fin" element={<FinanceReport />} />
+        <Route path="/profUnion" element={<ProfUnion />} />
         <Route path="/audit2023" element={<FinDocPdfPage pdf={audit2023Pdf}/>} />
         <Route path="/audit2019" element={<FinDocPdfPage pdf={audit2019Pdf}/>} />
         <Route path="/audit2022" element={<FinDocPdfPage pdf={audit2022Pdf}/>} />
