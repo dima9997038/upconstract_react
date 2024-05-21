@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db62923b.css",
+    "main.js": "/static/js/main.881ead5a.js",
+    "static/js/453.aa8a69d7.chunk.js": "/static/js/453.aa8a69d7.chunk.js",
+    "static/media/audit2023.pdf": "/static/media/audit2023.2d825fe4169c43b3a732.pdf",
+    "static/media/hero-carousel-7.jpg": "/static/media/hero-carousel-7.4173b9e93865990fcf1b.jpg",
+    "static/media/report2021.pdf": "/static/media/report2021.1f1e25d73cb60bbe3447.pdf",
+    "static/media/hero-carousel-9.jpg": "/static/media/hero-carousel-9.2c49327d99db188d0ffc.jpg",
+    "static/media/audit2022.pdf": "/static/media/audit2022.9c4505dc73f5302d5b5f.pdf",
+    "static/media/audit2020.pdf": "/static/media/audit2020.f1ed7eee9a0150b366d1.pdf",
+    "static/media/audit2019.pdf": "/static/media/audit2019.cf6a02dffed9a2486168.pdf",
+    "static/media/droblenie.jpg": "/static/media/droblenie.b5cd0348aa5601bd3fcc.jpg",
+    "static/media/zavodRails.jpg": "/static/media/zavodRails.b2308a6e013e04df012a.jpg",
+    "static/media/Granit.jpg": "/static/media/Granit.7287ef0eab2b7f27d5dc.jpg",
+    "static/media/fokLuchina.jpg": "/static/media/fokLuchina.d68139328e705e729ef9.jpg",
+    "static/media/viljamsa.jpg": "/static/media/viljamsa.f0a6df9b7503350fe77a.jpg",
+    "static/media/railsLida.jpg": "/static/media/railsLida.9e07f861b914d423afb5.jpg",
+    "static/media/naftan.jpg": "/static/media/naftan.e7f4736bdd4fb59a5507.jpg",
+    "static/media/minskEnergo.jpg": "/static/media/minskEnergo.3fb1c469918aed1d7b1a.jpg",
+    "static/media/kolcova.jpg": "/static/media/kolcova.cadb9402e46a86753232.jpg",
+    "static/media/hero-carousel-1.jpg": "/static/media/hero-carousel-1.9e5032971f7ec5e4ac56.jpg",
+    "static/media/hero-carousel-8.jpg": "/static/media/hero-carousel-8.71dd85e0d39b13cc828e.jpg",
+    "static/media/hero-carousel-6.jpg": "/static/media/hero-carousel-6.a6f134b72a63d9b614c2.jpg",
+    "static/media/iso.jpg": "/static/media/iso.fc8cd686c1fe18208b66.jpg",
+    "static/media/isoEng.jpg": "/static/media/isoEng.bfaeeae2951832a06618.jpg",
+    "static/media/logoTrest.jpg": "/static/media/logoTrest.0b0c78f2ed6b7875c3f9.jpg",
+    "static/media/image001.png": "/static/media/image001.06a28194d4ca22edcbcc.png",
+    "index.html": "/index.html",
+    "main.db62923b.css.map": "/static/css/main.db62923b.css.map",
+    "main.881ead5a.js.map": "/static/js/main.881ead5a.js.map",
+    "453.aa8a69d7.chunk.js.map": "/static/js/453.aa8a69d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db62923b.css",
+    "static/js/main.881ead5a.js"
+  ]
+}
