@@ -11,6 +11,7 @@ function AltServicesComponent(props) {
                     <div className="col-lg-6 img-bg" style={{backgroundImage: `url(${altServiceImg1})`}}
                          data-aos="zoom-in" data-aos-delay="100"></div>
 
+
                     <div className="col-lg-5 d-flex flex-column justify-content-center">
                         <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
                         <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed
