@@ -59,6 +59,7 @@ function FooterComponent(props) {
                                 <li><a href="#">Борьба с корупцией</a></li>
                                 <li><a href="#">Профсоюзная жизнь</a></li>
                                 <li><a href="#">Техника безопасности</a></li>
+                                <li><a href="#">Вакансии</a></li>
                             </ul>
                         </div>
                         {/*<div className="col-lg-2 col-md-3 footer-links">*/}

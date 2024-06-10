@@ -12,7 +12,7 @@ function Home(props) {
             <HeaderComponent/>
             <HeroComponent/>
             <main id="main">
-                <GetStartedComponent/>
+                {/*<GetStartedComponent/>*/}
                 {/*<ConstructionsComponent/>*/}
                 <ServicesComponent/>
                 {/*<AltServicesComponent/>*/}

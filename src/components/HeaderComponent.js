@@ -50,6 +50,9 @@ function HeaderComponent(props) {
                                 <li>
                                     <a href="#">Техника безопасности</a>
                                 </li>
+                                <li>
+                                    <a href="#">Вакансии</a>
+                                </li>
                             </ul>
                         </li>
                         {/*<li>*/}
