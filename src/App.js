@@ -14,7 +14,9 @@ import audit2019Pdf from './img/financeDoc/audit2019.pdf'
 import audit2022Pdf from './img/financeDoc/audit2022.pdf'
 import audit2020Pdf from './img/financeDoc/audit2020.pdf'
 import report2021Pdf from './img/financeDoc/report2021.pdf'
+import coruption from './img/coruption/Appened.PDF'
 import ProfUnion from "./pages/ProfUnion";
+import Corrumpere from "./pages/Corrumpere";
 function App() {
   return (
     <BrowserRouter>
@@ -27,11 +29,13 @@ function App() {
         <Route path="/sertificate" element={<Sertificate />} />
         <Route path="/fin" element={<FinanceReport />} />
         <Route path="/profUnion" element={<ProfUnion />} />
+        <Route path="/coruption" element={<Corrumpere/>} />
         <Route path="/audit2023" element={<FinDocPdfPage pdf={audit2023Pdf}/>} />
         <Route path="/audit2019" element={<FinDocPdfPage pdf={audit2019Pdf}/>} />
         <Route path="/audit2022" element={<FinDocPdfPage pdf={audit2022Pdf}/>} />
         <Route path="/audit2020" element={<FinDocPdfPage pdf={audit2020Pdf}/>} />
         <Route path="/report2021" element={<FinDocPdfPage pdf={report2021Pdf}/>} />
+        <Route path="/coruptionAppend" element={<FinDocPdfPage pdf={coruption}/>} />
       </Routes>
     </BrowserRouter>
   );
