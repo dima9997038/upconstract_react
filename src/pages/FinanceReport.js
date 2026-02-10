@@ -6,7 +6,9 @@ import {useNavigate} from "react-router-dom";
 
 function FinanceReport(props) {
     const  navigate=useNavigate()
-
+    function report2025() {
+        navigate("/report2025")
+    }
     function getAudit2023() {
         navigate("/audit2023")
     }
@@ -43,6 +45,16 @@ function FinanceReport(props) {
                         </tr>
                         </thead>
                         <tbody>
+                        <tr>
+                            <td>Информация о акционерном обществе</td>
+                            <td>2025</td>
+                            <td><Button variant="link" className="me-3" onClick={report2025} >Отчет</Button></td>
+                        </tr>
+                        <tr>
+                            <td>Аудиторское заключение</td>
+                            <td>2023</td>
+                            <td><Button variant="link" className="me-3" onClick={getAudit2023} >Заключение</Button></td>
+                        </tr>
                         <tr>
                             <td>Аудиторское заключение</td>
                             <td>2023</td>

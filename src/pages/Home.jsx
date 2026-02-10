@@ -5,10 +5,12 @@ import ProjectsComponent from "../components/ProjectsComponent";
 import FooterComponent from "../components/FooterComponent";
 import HeaderComponent from "../components/HeaderComponent";
 import HeroComponent from "../components/HeroComponent";
+import NavBarComponent from "../components/NavBarComponent";
 
 function Home(props) {
     return (
         <>
+            {/*<NavBarComponent/>*/}
             <HeaderComponent/>
             <HeroComponent/>
             <main id="main">

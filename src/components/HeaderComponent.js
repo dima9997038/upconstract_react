@@ -1,7 +1,8 @@
 import React from 'react';
-import {Container} from "react-bootstrap";
+import {Container, Nav, Navbar} from "react-bootstrap";
 import logo from '../img/logo/logoTrest.jpg'
 import {Link} from "react-router-dom";
+import choise from '../img/logo/img.png'
 
 function HeaderComponent(props) {
     return (
@@ -18,7 +19,7 @@ function HeaderComponent(props) {
                             <a href="/" className="active"> Главная </a>
                         </li>
                         <li>
-                            <a href="#footer">О нас</a>
+                            <a href="#projects">О нас</a>
                         </li>
                         <li>
                             <a href="#services">Наши услуги</a>
@@ -27,7 +28,7 @@ function HeaderComponent(props) {
                             <a href="#projects">Наши объекты</a>
                         </li>
                         <li>
-                            <a href="#footer">Контакты</a>
+                            <Link to="/contacts">Контакты</Link>
                         </li>
                         <li className="dropdown">
                             <a href="#">
@@ -48,16 +49,13 @@ function HeaderComponent(props) {
                                     <Link to="/profUnion">Профсоюзная жизнь</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Техника безопасности</a>
+                                    <a href="/forActioner">Для акционеров</a>
                                 </li>
-                                <li>
-                                    <a href="#">Вакансии</a>
-                                </li>
+
+
                             </ul>
                         </li>
-                        {/*<li>*/}
-                        {/*    <a href="contact.html">Contact</a>*/}
-                        {/*</li>*/}
+
                     </ul>
                 </nav>
             </Container>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 function FooterComponent(props) {
     return (
@@ -37,7 +38,7 @@ function FooterComponent(props) {
                                 <li><a href="#">О нас</a></li>
                                 <li><a href="#services">Наши услуги</a></li>
                                 <li><a href="#projects">Наши проекты</a></li>
-                                <li><a href="#">Контакты</a></li>
+                                <li> <Link to="/contacts">Контакты</Link></li>
                             </ul>
                         </div>
 
@@ -56,10 +57,12 @@ function FooterComponent(props) {
                             <ul>
                                 <li><a href="/sertificate">Сертификаты</a></li>
                                 <li><a href="/fin">Финансовая отчетность</a></li>
-                                <li><a href="#">Борьба с корупцией</a></li>
+                                <li>
+                                    <Link to="/coruption">Борьба с корупцией</Link>
+                                </li>
                                 <li><a href="#">Профсоюзная жизнь</a></li>
                                 <li><a href="#">Техника безопасности</a></li>
-                                <li><a href="#">Вакансии</a></li>
+                                {/*<li><a href="https://rec.gov.by/ru/election-schedule-ru/view/elections-2025-president">Выборы</a></li>*/}
                             </ul>
                         </div>
                         {/*<div className="col-lg-2 col-md-3 footer-links">*/}

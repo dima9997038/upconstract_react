@@ -55,7 +55,7 @@ function NavBarComponent(props) {
                                     <Link to="/fin">Финансовая отчетность</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Борьба с корупцией</a>
+                                    <Link to="/coruption">Борьба с корупцией</Link>
                                 </li>
                                 <li>
                                     <Link to="/profUnion">Профсоюзная жизнь</Link>

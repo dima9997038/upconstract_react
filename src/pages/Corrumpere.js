@@ -10,6 +10,10 @@ function Corrumpere(props) {
         navigate("/coruptionAppend")
     }
 
+    function handleCor2025() {
+        navigate("/coruptionAppend2025")
+    }
+
     return (
         <>
             <NavBarComponent/>
@@ -28,7 +32,7 @@ function Corrumpere(props) {
                         <Col md={2}></Col>
                         <Col md={8}>
                             <br/><br/>
-                            <Image src={img} height={100} width={400}></Image>
+                            <Image src={img} height={200} width={400}></Image>
                         </Col>
                         <Col md={2}></Col>
 
@@ -121,8 +125,11 @@ function Corrumpere(props) {
                 <Col md={4}>
                     <br/>
                     <h1>Информация</h1>
+                    <Button variant="link" className="me-3" onClick={handleCor2025} ><h4>План организационнно-профилактических мероприятий по противодействию корупции на 2025 roд</h4></Button>
                     <Button variant="link" className="me-3" onClick={handleCor} ><h4>План организационнно-профилактических мероприятий по противодействию корупции на 2024 roд</h4></Button>
+
                 </Col>
+
             </Row>
 
 
