@@ -34,11 +34,11 @@ function FooterComponent(props) {
                         <div className="col-lg-2 col-md-3 footer-links">
                             <h4>Полезные ссылки</h4>
                             <ul>
-                                <li><a href="/">Главная</a></li>
-                                <li><a href="#">О нас</a></li>
-                                <li><a href="#services">Наши услуги</a></li>
-                                <li><a href="#projects">Наши проекты</a></li>
-                                <li> <Link to="/contacts">Контакты</Link></li>
+                                <li><a href="https://mas.gov.by/ru">Министерство архитектуры и строительства</a></li>
+                                <li><a href="https://bsc.by">РУП «БЕЛСТРОЙЦЕНТР»</a></li>
+                                <li><a href="https://gosstroyportal.by">ГОССТРОЙПОРТАЛ</a></li>
+                                <li><a href="https://pravo.by">Национальный правовой портал</a></li>
+                                {/*<li> <Link to="/contacts">Контакты</Link></li>*/}
                             </ul>
                         </div>
 

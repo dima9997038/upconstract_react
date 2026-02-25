@@ -49,7 +49,7 @@ function HeaderComponent(props) {
                                     <Link to="/profUnion">Профсоюзная жизнь</Link>
                                 </li>
                                 <li>
-                                    <a href="/forActioner">Для акционеров</a>
+                                    <Link to="/forActioner">Для акционеров</Link>
                                 </li>
 
 
