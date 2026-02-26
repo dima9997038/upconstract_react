@@ -12,6 +12,7 @@ import road from '../img/projects/road1.jpg'
 import roadVileka from '../img/projects/roadVileka.jpg'
 import garag from '../img/projects/garag.jpg'
 import mozer from '../img/projects/Mozer.jpg'
+import maz from '../img/projects/maz1.jpg'
 
 function ProjectsComponent(props) {
     return (
@@ -187,7 +188,7 @@ function ProjectsComponent(props) {
                                 <img src={mozer} className="img-fluid" alt=""/>
                                 <div className="portfolio-info">
                                     <h4>Конструкция навесная</h4>
-                                    <p>Мозырь Соль</p>
+                                    <p>ОАО МОЗЫРЬСОЛЬ</p>
                                     <a href={mozer} title="Конструкция навесная"
                                        data-gallery="portfolio-gallery-remodeling"
                                        className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
@@ -203,6 +204,20 @@ function ProjectsComponent(props) {
                                     <h4>Строительство лесохозяйственной дороги</h4>
                                     <p>ГЛХУ Вилейский лесхоз</p>
                                     <a href={roadVileka} title="Дорога"
+                                       data-gallery="portfolio-gallery-remodeling"
+                                       className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
+                                    <a href="project-details.html" title="Подробнее" className="details-link"><i
+                                        className="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+                            <div className="portfolio-content h-100">
+                                <img src={maz} className="img-fluid" alt=""/>
+                                <div className="portfolio-info">
+                                    <h4>Реновация производственного корпуса </h4>
+                                    <p>ОАО МАЗ</p>
+                                    <a href={maz} title="Дорога"
                                        data-gallery="portfolio-gallery-remodeling"
                                        className="glightbox preview-link"><i className="bi bi-zoom-in"></i></a>
                                     <a href="project-details.html" title="Подробнее" className="details-link"><i
