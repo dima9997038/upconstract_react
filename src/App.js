@@ -21,6 +21,8 @@ import ProfUnion from "./pages/ProfUnion";
 import Corrumpere from "./pages/Corrumpere";
 import PrivateQuestion from "./pages/PrivateQuestion";
 import ForActioner from "./pages/ForActioner";
+import Actioner from "./pages/Actioner";
+import ForActioner2 from "./pages/ForActioner2";
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +36,8 @@ function App() {
         <Route path="/fin" element={<FinanceReport />} />
         <Route path="/profUnion" element={<ProfUnion />} />
         <Route path="/forActioner" element={<ForActioner />} />
+        <Route path="/forActioner2" element={<ForActioner2 />} />
+        <Route path="/Actioner" element={<Actioner />} />
         <Route path="/coruption" element={<Corrumpere/>} />
         <Route path="/audit2023" element={<FinDocPdfPage pdf={audit2023Pdf}/>} />
         <Route path="/audit2019" element={<FinDocPdfPage pdf={audit2019Pdf}/>} />

@@ -7,11 +7,6 @@ function ForActioner(props) {
     return (
         <>
             <NavBarComponent />
-            {/*<Row className="mb-4">*/}
-            {/*    <Col md={12} className="text-center">*/}
-            {/*        <Image src={img} alt="Оперативная информация" fluid />*/}
-            {/*    </Col>*/}
-            {/*</Row>*/}
 
             <Row className="mb-4">
                 <Col md={12} className="text-center">

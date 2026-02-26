@@ -12,7 +12,7 @@ import road from '../img/projects/road1.jpg'
 import roadVileka from '../img/projects/roadVileka.jpg'
 import garag from '../img/projects/garag.jpg'
 import mozer from '../img/projects/Mozer.jpg'
-import maz from '../img/projects/maz1.jpg'
+import maz from '../img/projects/maz2.jpg'
 
 function ProjectsComponent(props) {
     return (
