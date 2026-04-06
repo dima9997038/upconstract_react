@@ -12,6 +12,9 @@ function Actioner(props) {
     function info2() {
         navigate("/forActioner2")
     }
+    function report2025() {
+        navigate("/report_for_actioner2025")
+    }
 
     return (
         <>
@@ -43,6 +46,11 @@ function Actioner(props) {
                             <td>Информация о акционерном обществе</td>
                             <td>26 февраля 2026 года</td>
                             <td><Button variant="link" className="me-3" onClick={info2}>O годовом общем собрании акционеров</Button></td>
+                        </tr>
+                        <tr>
+                            <td>Информация о акционерном обществе</td>
+                            <td>6 апреля 2026 года</td>
+                            <td><Button variant="link" className="me-3" onClick={report2025}>Годовой отчет 2025 г</Button></td>
                         </tr>
 
 

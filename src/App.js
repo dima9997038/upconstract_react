@@ -23,6 +23,7 @@ import PrivateQuestion from "./pages/PrivateQuestion";
 import ForActioner from "./pages/ForActioner";
 import Actioner from "./pages/Actioner";
 import ForActioner2 from "./pages/ForActioner2";
+import ReportForActioner from "./img/financeDoc/report_for_actioner2025.pdf"
 function App() {
   return (
     <BrowserRouter>
@@ -45,6 +46,7 @@ function App() {
         <Route path="/audit2020" element={<FinDocPdfPage pdf={audit2020Pdf}/>} />
         <Route path="/report2021" element={<FinDocPdfPage pdf={report2021Pdf}/>} />
         <Route path="/report2025" element={<FinDocPdfPage pdf={report2025Pdf}/>} />
+        <Route path="/report_for_actioner2025" element={<FinDocPdfPage pdf={ReportForActioner}/>} />
         <Route path="/coruptionAppend2025" element={<FinDocPdfPage pdf={coruption2025}/>} />
         <Route path="/coruptionAppend" element={<FinDocPdfPage pdf={coruption}/>} />
         <Route path="/privateQuestion" element={<PrivateQuestion/>} />
