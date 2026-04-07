@@ -51,7 +51,11 @@ function HeaderComponent(props) {
                                 <li>
                                     <Link to="/Actioner">Для акционеров</Link>
                                 </li>
-
+                                <li>
+                                    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">
+                                        Идеологическая работа
+                                    </a>
+                                </li>
 
                             </ul>
                         </li>

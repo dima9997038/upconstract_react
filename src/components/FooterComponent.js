@@ -16,7 +16,7 @@ function FooterComponent(props) {
                                     ул.Серова д.28, корп. 2<br/><br/>
                                     <strong>Телефон:</strong>+375 17 388 05 95<br/>
                                     <strong>Факс:</strong> +375 17 270 76 84 <br/>
-                                    <strong>Email:</strong> usm_info@mail.ru <br/>
+                                    <strong>Email:</strong> main@усм.бел <br/>
                                 </p>
                                 <div className="social-links d-flex mt-3">
                                     <a href="#" className="d-flex align-items-center justify-content-center"><i
