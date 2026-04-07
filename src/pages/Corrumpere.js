@@ -13,6 +13,9 @@ function Corrumpere(props) {
     function handleCor2025() {
         navigate("/coruptionAppend2025")
     }
+    function handleCor2026() {
+        navigate("/coruptionAppend2026")
+    }
 
     return (
         <>
@@ -125,6 +128,7 @@ function Corrumpere(props) {
                 <Col md={4}>
                     <br/>
                     <h1>Информация</h1>
+                    <Button variant="link" className="me-3" onClick={handleCor2026} ><h4>План организационнно-профилактических мероприятий по противодействию корупции на 2026 roд</h4></Button>
                     <Button variant="link" className="me-3" onClick={handleCor2025} ><h4>План организационнно-профилактических мероприятий по противодействию корупции на 2025 roд</h4></Button>
                     <Button variant="link" className="me-3" onClick={handleCor} ><h4>План организационнно-профилактических мероприятий по противодействию корупции на 2024 roд</h4></Button>
 

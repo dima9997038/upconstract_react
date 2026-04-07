@@ -60,8 +60,17 @@ function FooterComponent(props) {
                                 <li>
                                     <Link to="/coruption">Борьба с корупцией</Link>
                                 </li>
-                                <li><a href="#">Профсоюзная жизнь</a></li>
-                                <li><a href="#">Техника безопасности</a></li>
+                                <li>
+                                    <Link to="/profUnion">Профсоюзная жизнь</Link>
+                                </li>
+                                <li>
+                                    <Link to="/Actioner">Для акционеров</Link>
+                                </li>
+                                <li>
+                                    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">
+                                        Идеологическая работа
+                                    </a>
+                                </li>
                                 {/*<li><a href="https://rec.gov.by/ru/election-schedule-ru/view/elections-2025-president">Выборы</a></li>*/}
                             </ul>
                         </div>
