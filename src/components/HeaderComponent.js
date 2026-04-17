@@ -56,6 +56,11 @@ function HeaderComponent(props) {
                                         Идеологическая работа
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
+                                        Единый день информирования
+                                    </a>
+                                </li>
 
                             </ul>
                         </li>

@@ -71,6 +71,11 @@ function FooterComponent(props) {
                                         Идеологическая работа
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
+                                        Единый день информирования
+                                    </a>
+                                </li>
                                 {/*<li><a href="https://rec.gov.by/ru/election-schedule-ru/view/elections-2025-president">Выборы</a></li>*/}
                             </ul>
                         </div>

@@ -15,8 +15,8 @@ import audit2022Pdf from './img/financeDoc/audit2022.pdf'
 import audit2020Pdf from './img/financeDoc/audit2020.pdf'
 import report2021Pdf from './img/financeDoc/report2021.pdf'
 import report2025Pdf from './img/financeDoc/information01.01.2025.pdf'
-import coruption from './img/coruption/Appened.PDF'
-import coruption2025 from './img/coruption/protocol2025.PDF'
+// import coruption from './img/coruption/Appened.PDF'
+// import coruption2025 from './img/coruption/protocol2025.PDF'
 import coruption2026 from './img/coruption/protocol2026.pdf'
 import ProfUnion from "./pages/ProfUnion";
 import Corrumpere from "./pages/Corrumpere";
@@ -48,9 +48,9 @@ function App() {
         <Route path="/report2021" element={<FinDocPdfPage pdf={report2021Pdf}/>} />
         <Route path="/report2025" element={<FinDocPdfPage pdf={report2025Pdf}/>} />
         <Route path="/report_for_actioner2025" element={<FinDocPdfPage pdf={ReportForActioner}/>} />
-        <Route path="/coruptionAppend2025" element={<FinDocPdfPage pdf={coruption2025}/>} />
+        {/*<Route path="/coruptionAppend2025" element={<FinDocPdfPage pdf={coruption2025}/>} />*/}
         <Route path="/coruptionAppend2026" element={<FinDocPdfPage pdf={coruption2026}/>} />
-        <Route path="/coruptionAppend" element={<FinDocPdfPage pdf={coruption}/>} />
+        {/*<Route path="/coruptionAppend" element={<FinDocPdfPage pdf={coruption}/>} />*/}
         <Route path="/privateQuestion" element={<PrivateQuestion/>} />
         <Route path="/contacts" element={<Contact/>} />
       </Routes>
