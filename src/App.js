@@ -25,6 +25,10 @@ import ForActioner from "./pages/ForActioner";
 import Actioner from "./pages/Actioner";
 import ForActioner2 from "./pages/ForActioner2";
 import ReportForActioner from "./img/financeDoc/report_for_actioner2025.pdf"
+import OrganizationsInfo from "./pages/OrganizationsInfo";
+import Management from "./pages/Management";
+import IdeologicalWork from "./pages/IdeologicalWork";
+import CompanyInfo from "./pages/CompanyInfo";
 function App() {
   return (
     <BrowserRouter>
@@ -53,6 +57,10 @@ function App() {
         {/*<Route path="/coruptionAppend" element={<FinDocPdfPage pdf={coruption}/>} />*/}
         <Route path="/privateQuestion" element={<PrivateQuestion/>} />
         <Route path="/contacts" element={<Contact/>} />
+        <Route path="/organizationsInfo" element={<OrganizationsInfo/>} />
+        <Route path="/managment" element={<Management/>} />
+        <Route path="/idealog" element={<IdeologicalWork/>} />
+        <Route path="/companyInfo" element={<CompanyInfo/>} />
       </Routes>
     </BrowserRouter>
   );

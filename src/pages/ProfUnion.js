@@ -23,6 +23,15 @@ function ProfUnion(props) {
                 <Col md={8}>
                     <Card className="shadow-sm">
                         <Card.Body>
+                            {/* Добавленный блок с председателем профкома */}
+                            <div className="mb-4 p-3 bg-light rounded border-start border-primary border-4">
+                                <h4 className="mb-2">Председатель профсоюзного комитета</h4>
+                                <p className="mb-1 fs-5 fw-semibold">Шереметьева Елена Николаевна</p>
+                                <p className="mb-0">
+                                    <strong>Телефон:</strong> <a href="tel:+80173880510">8 (017) 388-05-10</a>
+                                </p>
+                            </div>
+
                             <p className="lead">
                                 Руководящий орган — профсоюзный комитет, в который избрано 7 членов. Профком ОАО «Управление СтройМеханизации» в своей работе руководствуется законодательством РБ, Уставом профсоюза и Положением о первичной профсоюзной организацией.
                             </p>

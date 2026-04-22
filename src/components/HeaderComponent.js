@@ -3,6 +3,7 @@ import {Container, Nav, Navbar} from "react-bootstrap";
 import logo from '../img/logo/logoTrest.jpg'
 import {Link} from "react-router-dom";
 import choise from '../img/logo/img.png'
+import CompanyInfo from "../pages/CompanyInfo";
 
 function HeaderComponent(props) {
     return (
@@ -15,9 +16,49 @@ function HeaderComponent(props) {
                 <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li>
-                            <a href="/" className="active"> Главная </a>
+                        <li className="dropdown">
+                            <a href="/">
+                                <span>О компании</span>{" "}
+                                <i className="bi bi-chevron-down dropdown-indicator active"></i>
+                            </a>
+                            <ul>
+
+                                <li>
+                                    <Link to="/organizationsInfo">Вышестоящие организации</Link>
+                                </li>
+                                <li>
+                                    <Link to="/managment">Руководство организации</Link>
+                                </li>
+                                <li>
+                                    <Link to="/contacts">Структура</Link>
+                                </li>
+                                <li>
+                                    <Link to="/companyInfo">Направления деятельности</Link>
+                                </li>
+                                <li>
+                                    <Link to="/Actioner">Для акционеров</Link>
+                                </li>
+                                <li>
+                                    <Link to="/profUnion">Профсоюзная жизнь</Link>
+                                </li>
+                                <li>
+                                    <Link to="/idealog">Идеологическая работа</Link>
+                                </li>
+                                <li>
+                                    <Link to="/coruption">Борьба с корупцией</Link>
+                                </li>
+
+                                <li>
+                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
+                                        Единый день информирования
+                                    </a>
+                                </li>
+
+                            </ul>
                         </li>
+                        {/*<li>*/}
+                        {/*    <a href="/" className="active"> Главная </a>*/}
+                        {/*</li>*/}
                         <li>
                             <a href="#projects">О нас</a>
                         </li>
@@ -42,23 +83,23 @@ function HeaderComponent(props) {
                                 <li>
                                     <Link to="/fin">Финансовая отчетность</Link>
                                 </li>
-                                <li>
-                                    <Link to="/coruption">Борьба с корупцией</Link>
-                                </li>
-                                <li>
-                                    <Link to="/profUnion">Профсоюзная жизнь</Link>
-                                </li>
+
                                 <li>
                                     <Link to="/Actioner">Для акционеров</Link>
                                 </li>
                                 <li>
-                                    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">
-                                        Идеологическая работа
+                                    <a href="https://ptm.by/storage/041225/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%20%E2%84%96%201.pdf">
+                                        Директива №1
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
-                                        Единый день информирования
+                                    <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g">
+                                        Год женщины
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://president.gov.by/ru/documents/ukaz-no-31-ot-17-anvara-2025-g">
+                                        Пятилетка качества
                                     </a>
                                 </li>
 
