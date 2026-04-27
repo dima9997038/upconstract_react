@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.db62923b.css",
-    "main.js": "/static/js/main.b7b2f105.js",
+    "main.js": "/static/js/main.efb4ced9.js",
     "static/js/453.aa8a69d7.chunk.js": "/static/js/453.aa8a69d7.chunk.js",
     "static/media/audit2023.pdf": "/static/media/audit2023.2d825fe4169c43b3a732.pdf",
     "static/media/information01.01.2025.pdf": "/static/media/information01.01.2025.b55525d5a735d9993d0c.pdf",
@@ -12,7 +12,9 @@
     "static/media/audit2022.pdf": "/static/media/audit2022.9c4505dc73f5302d5b5f.pdf",
     "static/media/audit2020.pdf": "/static/media/audit2020.f1ed7eee9a0150b366d1.pdf",
     "static/media/audit2019.pdf": "/static/media/audit2019.cf6a02dffed9a2486168.pdf",
+    "static/media/news2.pdf": "/static/media/news2.93adf40ccf5c19b3ca6a.pdf",
     "static/media/img.png": "/static/media/img.25375dd69ef19b0cf909.png",
+    "static/media/news1.pdf": "/static/media/news1.8f5cc345f29f14ac60aa.pdf",
     "static/media/droblenie.jpg": "/static/media/droblenie.b5cd0348aa5601bd3fcc.jpg",
     "static/media/zavodRails.jpg": "/static/media/zavodRails.b2308a6e013e04df012a.jpg",
     "static/media/Granit.jpg": "/static/media/Granit.7287ef0eab2b7f27d5dc.jpg",
@@ -26,6 +28,7 @@
     "static/media/maz2.jpg": "/static/media/maz2.216a74d66d86ef35b3b2.jpg",
     "static/media/road1.jpg": "/static/media/road1.fb163e9ff2dbc2ba480a.jpg",
     "static/media/kolcova.jpg": "/static/media/kolcova.cadb9402e46a86753232.jpg",
+    "static/media/news3.pdf": "/static/media/news3.15ebe54ca3ad0296ba54.pdf",
     "static/media/garag.jpg": "/static/media/garag.9e7beee8cd9c2c8f3676.jpg",
     "static/media/hero-carousel-1.jpg": "/static/media/hero-carousel-1.9e5032971f7ec5e4ac56.jpg",
     "static/media/hero-carousel-8.jpg": "/static/media/hero-carousel-8.71dd85e0d39b13cc828e.jpg",
@@ -40,13 +43,14 @@
     "static/media/Sert-0006.jpg": "/static/media/Sert-0006.383bc3e2dc38ade5b789.jpg",
     "static/media/logoTrest.jpg": "/static/media/logoTrest.0b0c78f2ed6b7875c3f9.jpg",
     "static/media/image001.png": "/static/media/image001.06a28194d4ca22edcbcc.png",
+    "static/media/women.jpg": "/static/media/women.42b7d2b8db0d3f5f493d.jpg",
     "index.html": "/index.html",
     "main.db62923b.css.map": "/static/css/main.db62923b.css.map",
-    "main.b7b2f105.js.map": "/static/js/main.b7b2f105.js.map",
+    "main.efb4ced9.js.map": "/static/js/main.efb4ced9.js.map",
     "453.aa8a69d7.chunk.js.map": "/static/js/453.aa8a69d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.b7b2f105.js"
+    "static/js/main.efb4ced9.js"
   ]
 }
