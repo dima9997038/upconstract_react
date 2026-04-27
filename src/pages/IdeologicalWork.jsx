@@ -6,12 +6,13 @@ import FooterComponent from "../components/FooterComponent";
 const IdeologicalWork = () => {
     // Список направлений / ссылок
     const quickLinks = [
-        { name: "Директива №12", url: "#" },
-        { name: "Единый день информирования", url: "#" },
-        { name: "Государственная символика", url: "#" },
-        { name: "Год белорусской женщины", url: "#" },
-        { name: "Пятилетка качества", url: "#" },
-        { name: "Молодежная политика", url: "#" },
+        { name: "Директива №12", url: "https://pravo.by/document/?guid=12551&p0=P02500012" },
+        { name: "Единый день информирования", url: "https://minsk.gov.by/ru/actual/view/209/2026.shtml" },
+        { name: "Государственная символика", url: "https://pravo.by/gosudarstvo-i-pravo/gosudarstvennaya-simvolika/gosudarstvennye-\n" +
+                "simvoly/" },
+        { name: "Год белорусской женщины", url: "https://pravo.by/document/?guid=12551&p0=C22600069" },
+        { name: "Пятилетка качества", url: "https://pravo.by/document/?guid=12551&amp;p0=P32500031" },
+        // { name: "Молодежная политика", url: "#" },
         { name: "РОО «Белая Русь»", url: "#" },
         { name: "ОО «Белорусский союз женщин»", url: "#" },
         { name: "ОО «БРСМ»", url: "#" }

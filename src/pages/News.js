@@ -15,18 +15,10 @@ function News(props) {
     function news3() {
         navigate("/news3")
     }
-    // function getAudit2019() {
-    //     navigate("/audit2019")
-    // }
-    // function getAudit2022() {
-    //     navigate("/audit2022")
-    // }
-    // function getAudit2020() {
-    //     navigate("/audit2020")
-    // }
-    // function report2021() {
-    //     navigate("/report2021")
-    // }
+    function news4() {
+        navigate("/news4")
+    }
+
 
     return (
         <>
@@ -63,36 +55,12 @@ function News(props) {
                             <td>8 марта 2026г.</td>
                             <td><Button variant="link" className="me-3" onClick={news3}>Новость</Button></td>
                         </tr>
-                        {/*<tr>*/}
-                        {/*    <td>Аудиторское заключение</td>*/}
-                        {/*    <td>2023</td>*/}
-                        {/*    <td><Button variant="link" className="me-3" onClick={getAudit2023} >Заключение</Button></td>*/}
-                        {/*</tr>*/}
-                        {/*<tr>*/}
-                        {/*    <td>Аудиторское заключение</td>*/}
-                        {/*    <td>2023</td>*/}
-                        {/*    <td><Button variant="link" className="me-3" onClick={getAudit2023} >Заключение</Button></td>*/}
-                        {/*</tr>*/}
-                        {/*<tr>*/}
-                        {/*    <td>Аудиторское заключение</td>*/}
-                        {/*    <td>2022</td>*/}
-                        {/*    <td><Button variant="link" className="me-3"onClick={getAudit2022} >Заключение</Button></td>*/}
-                        {/*</tr>*/}
-                        {/*<tr>*/}
-                        {/*    <td>Аудиторское заключение</td>*/}
-                        {/*    <td>2020</td>*/}
-                        {/*    <td><Button variant="link" className="me-3" onClick={getAudit2020}>Заключение</Button></td>*/}
-                        {/*</tr>*/}
-                        {/*<tr>*/}
-                        {/*    <td>Аудиторское заключение</td>*/}
-                        {/*    <td>2019</td>*/}
-                        {/*    <td><Button variant="link" className="me-3" onClick={getAudit2019}>Заключение</Button></td>*/}
-                        {/*</tr>*/}
-                        {/*<tr>*/}
-                        {/*    <td>Годовой отчет</td>*/}
-                        {/*    <td>2021</td>*/}
-                        {/*    <td><Button variant="link" className="me-3" onClick={report2021} >Отчет</Button></td>*/}
-                        {/*</tr>*/}
+                        <tr>
+                            <td>«Чернобыльская трагедия»</td>
+                            <td>26 апреля 2026г.</td>
+                            <td><Button variant="link" className="me-3" onClick={news4}>Новость</Button></td>
+                        </tr>
+
 
                         </tbody>
                     </Table>
