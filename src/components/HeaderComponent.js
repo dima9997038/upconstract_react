@@ -23,6 +23,7 @@ function HeaderComponent(props) {
                             </a>
                             <ul>
 
+
                                 <li>
                                     <Link to="/organizationsInfo">Вышестоящие организации</Link>
                                 </li>
@@ -77,6 +78,9 @@ function HeaderComponent(props) {
                                 <i className="bi bi-chevron-down dropdown-indicator"></i>
                             </a>
                             <ul>
+                                <li>
+                                    <Link to="/news">Новости</Link>
+                                </li>
                                 <li>
                                     <Link to="/sertificate">Сертификаты</Link>
                                 </li>

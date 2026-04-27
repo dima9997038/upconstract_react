@@ -1,5 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import years5 from '../img/banners/5years.jpg'
+import women from '../img/banners/women.jpg'
+
 
 function FooterComponent(props) {
     return (
@@ -7,7 +10,6 @@ function FooterComponent(props) {
             <div className="footer-content position-relative">
                 <div className="container">
                     <div className="row">
-
                         <div className="col-lg-4 col-md-6">
                             <div className="footer-info">
                                 <h3>ОАО «Управление СтройМеханизации» </h3>
@@ -76,20 +78,47 @@ function FooterComponent(props) {
                                         Единый день информирования
                                     </a>
                                 </li>
-                                {/*<li><a href="https://rec.gov.by/ru/election-schedule-ru/view/elections-2025-president">Выборы</a></li>*/}
                             </ul>
                         </div>
-                        {/*<div className="col-lg-2 col-md-3 footer-links">*/}
-                        {/*    <h4>Nobis illum</h4>*/}
-                        {/*    <ul>*/}
-                        {/*        <li><a href="#">Ipsam</a></li>*/}
-                        {/*        <li><a href="#">Laudantium dolorum</a></li>*/}
-                        {/*        <li><a href="#">Dinera</a></li>*/}
-                        {/*        <li><a href="#">Trodelas</a></li>*/}
-                        {/*        <li><a href="#">Flexo</a></li>*/}
-                        {/*    </ul>*/}
-                        {/*</div>*/}
+                    </div>
 
+                    {/* === НОВЫЙ БЛОК С БАННЕРАМИ === */}
+                    <div className="row mt-5 pt-3 border-top">
+                        <div className="row mt-5 pt-3 border-top justify-content-center">
+                            <div className="col-12">
+                                {/*<h5 className="text-center mb-4">Наши партнёры и рекламные баннеры</h5>*/}
+                            </div>
+                            <div className="col-md-3 mb-3">   {/* было col-md-4 */}
+                                <a href="https://president.gov.by/ru/documents/ukaz-no-31-ot-17-anvara-2025-g" target="_blank" rel="noopener noreferrer" className="d-block">
+                                    <img
+                                        src={years5}
+                                        alt="Баннер 1"
+                                        className="img-fluid rounded shadow-sm"
+                                        style={{width: '100%', height: '150px', objectFit: 'cover'}}
+                                    />
+                                </a>
+                            </div>
+                            <div className="col-md-3 mb-3">   {/* было col-md-4 */}
+                                <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g" target="_blank" rel="noopener noreferrer" className="d-block">
+                                    <img
+                                        src={women}
+                                        alt="Баннер 2"
+                                        className="img-fluid rounded shadow-sm"
+                                        style={{width: '100%', height: '150px', objectFit: 'cover'}}
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                        {/*<div className="col-md-4 mb-3">*/}
+                        {/*    <a href="#" target="_blank" rel="noopener noreferrer" className="d-block">*/}
+                        {/*        <img*/}
+                        {/*            src="https://placehold.co/600x200/f8f9fa/343a40?text=Баннер+3:+Переработка+отходов"*/}
+                        {/*            alt="Баннер 3"*/}
+                        {/*            className="img-fluid rounded shadow-sm"*/}
+                        {/*            style={{ width: '100%', objectFit: 'cover' }}*/}
+                        {/*        />*/}
+                        {/*    </a>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
@@ -97,7 +126,8 @@ function FooterComponent(props) {
             <div className="footer-legal text-center position-relative">
                 <div className="container">
                     <div className="copyright">
-                        &copy; Copyright <strong><span>ОАО «Управление СтройМеханизации»</span></strong>. All Rights Reserved
+                        &copy; Copyright <strong><span>ОАО «Управление СтройМеханизации»</span></strong>. All Rights
+                        Reserved
                     </div>
                     <div className="credits">
                         Designed by dzmitrydubouski2@gmail.com

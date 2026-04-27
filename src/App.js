@@ -15,6 +15,10 @@ import audit2022Pdf from './img/financeDoc/audit2022.pdf'
 import audit2020Pdf from './img/financeDoc/audit2020.pdf'
 import report2021Pdf from './img/financeDoc/report2021.pdf'
 import report2025Pdf from './img/financeDoc/information01.01.2025.pdf'
+import news1 from './img/news/news1.pdf';
+import news2 from './img/news/news2.pdf';
+import news3 from './img/news/news3.pdf';
+
 // import coruption from './img/coruption/Appened.PDF'
 // import coruption2025 from './img/coruption/protocol2025.PDF'
 import coruption2026 from './img/coruption/protocol2026.pdf'
@@ -29,6 +33,10 @@ import OrganizationsInfo from "./pages/OrganizationsInfo";
 import Management from "./pages/Management";
 import IdeologicalWork from "./pages/IdeologicalWork";
 import CompanyInfo from "./pages/CompanyInfo";
+import News from "./pages/News";
+import SinglePagePdf from "./pages/SinglePagePdf";
+import FullPdfScroll from "./pages/FullPdfScroll";
+
 function App() {
   return (
     <BrowserRouter>
@@ -40,6 +48,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/sertificate" element={<Sertificate />} />
         <Route path="/fin" element={<FinanceReport />} />
+        <Route path="/news" element={<News/>} />
         <Route path="/profUnion" element={<ProfUnion />} />
         <Route path="/forActioner" element={<ForActioner />} />
         <Route path="/forActioner2" element={<ForActioner2 />} />
@@ -51,6 +60,9 @@ function App() {
         <Route path="/audit2020" element={<FinDocPdfPage pdf={audit2020Pdf}/>} />
         <Route path="/report2021" element={<FinDocPdfPage pdf={report2021Pdf}/>} />
         <Route path="/report2025" element={<FinDocPdfPage pdf={report2025Pdf}/>} />
+        <Route path="/news1" element={<FullPdfScroll pdfFile={news1} />} />
+        <Route path="/news2" element={<FullPdfScroll pdfFile={news2} />} />
+        <Route path="/news3" element={<FullPdfScroll pdfFile={news3} />} />
         <Route path="/report_for_actioner2025" element={<FinDocPdfPage pdf={ReportForActioner}/>} />
         {/*<Route path="/coruptionAppend2025" element={<FinDocPdfPage pdf={coruption2025}/>} />*/}
         <Route path="/coruptionAppend2026" element={<FinDocPdfPage pdf={coruption2026}/>} />
