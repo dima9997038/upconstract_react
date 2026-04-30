@@ -11,11 +11,11 @@ const IdeologicalWork = () => {
         { name: "Государственная символика", url: "https://pravo.by/gosudarstvo-i-pravo/gosudarstvennaya-simvolika/gosudarstvennye-\n" +
                 "simvoly/" },
         { name: "Год белорусской женщины", url: "https://pravo.by/document/?guid=12551&p0=C22600069" },
-        { name: "Пятилетка качества", url: "https://pravo.by/document/?guid=12551&amp;p0=P32500031" },
+        { name: "Пятилетка качества", url: "https://president.gov.by/ru/documents/ukaz-no-31-ot-17-anvara-2025-g" },
         // { name: "Молодежная политика", url: "#" },
-        { name: "РОО «Белая Русь»", url: "#" },
-        { name: "ОО «Белорусский союз женщин»", url: "#" },
-        { name: "ОО «БРСМ»", url: "#" }
+        { name: "РОО «Белая Русь»", url: "https://1br.by/" },
+        { name: "ОО «Белорусский союз женщин»", url: "https://oobsg.by/" },
+        { name: "ОО «БРСМ»", url: "https://brsm.by/by" }
     ];
 
     const styles = {

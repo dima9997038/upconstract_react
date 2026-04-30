@@ -98,7 +98,7 @@ function HeaderComponent(props) {
                                 </li>
                                 <li>
                                     <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g">
-                                        Год женщины
+                                        Год белорусской женщины
                                     </a>
                                 </li>
                                 <li>
