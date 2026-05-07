@@ -34,7 +34,7 @@ function FooterComponent(props) {
                         </div>
 
                         <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Полезные ссылки</h4>
+                            <h4>Официальные интернет ресурсы</h4>
                             <ul>
                                 <li><a href="https://mas.gov.by/ru">Министерство архитектуры и строительства</a></li>
                                 <li><a href="https://bsc.by">РУП «БЕЛСТРОЙЦЕНТР»</a></li>
@@ -68,16 +68,16 @@ function FooterComponent(props) {
                                 <li>
                                     <Link to="/Actioner">Для акционеров</Link>
                                 </li>
-                                <li>
-                                    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">
-                                        Идеологическая работа
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
-                                        Единый день информирования
-                                    </a>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">*/}
+                                {/*        Идеологическая работа*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">*/}
+                                {/*        Единый день информирования*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
                             </ul>
                         </div>
                     </div>

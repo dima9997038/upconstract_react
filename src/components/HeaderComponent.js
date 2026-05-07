@@ -49,11 +49,11 @@ function HeaderComponent(props) {
                                     <Link to="/coruption">Борьба с корупцией</Link>
                                 </li>
 
-                                <li>
-                                    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">
-                                        Единый день информирования
-                                    </a>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <a href="https://minsk.gov.by/ru/actual/view/209/2026.shtml">*/}
+                                {/*        Единый день информирования*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
 
                             </ul>
                         </li>
@@ -91,21 +91,21 @@ function HeaderComponent(props) {
                                 <li>
                                     <Link to="/Actioner">Для акционеров</Link>
                                 </li>
-                                <li>
-                                    <a href="https://ptm.by/storage/041225/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%20%E2%84%96%201.pdf">
-                                        Директива №1
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g">
-                                        Год белорусской женщины
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://president.gov.by/ru/documents/ukaz-no-31-ot-17-anvara-2025-g">
-                                        Пятилетка качества
-                                    </a>
-                                </li>
+                                {/*<li>*/}
+                                {/*    <a href="https://ptm.by/storage/041225/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%20%E2%84%96%201.pdf">*/}
+                                {/*        Директива №1*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <a href="https://president.gov.by/ru/documents/ukaz-no-1-ot-1-anvara-2026-g">*/}
+                                {/*        Год белорусской женщины*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
+                                {/*<li>*/}
+                                {/*    <a href="https://president.gov.by/ru/documents/ukaz-no-31-ot-17-anvara-2025-g">*/}
+                                {/*        Пятилетка качества*/}
+                                {/*    </a>*/}
+                                {/*</li>*/}
 
                             </ul>
                         </li>

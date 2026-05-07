@@ -15,7 +15,7 @@ const IdeologicalWork = () => {
         // { name: "Молодежная политика", url: "#" },
         { name: "РОО «Белая Русь»", url: "https://1br.by/" },
         { name: "ОО «Белорусский союз женщин»", url: "https://oobsg.by/" },
-        { name: "ОО «БРСМ»", url: "https://brsm.by/by" }
+        { name: "ОО «БРСМ»", url: "https://brsm.by/" }
     ];
 
     const styles = {
