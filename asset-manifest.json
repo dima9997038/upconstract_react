@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.db62923b.css",
-    "main.js": "/static/js/main.9ac82f36.js",
+    "main.js": "/static/js/main.8b9be1f2.js",
     "static/js/453.aa8a69d7.chunk.js": "/static/js/453.aa8a69d7.chunk.js",
     "static/media/audit2023.pdf": "/static/media/audit2023.2d825fe4169c43b3a732.pdf",
     "static/media/information01.01.2025.pdf": "/static/media/information01.01.2025.b55525d5a735d9993d0c.pdf",
@@ -22,6 +22,7 @@
     "static/media/fokLuchina.jpg": "/static/media/fokLuchina.d68139328e705e729ef9.jpg",
     "static/media/viljamsa.jpg": "/static/media/viljamsa.f0a6df9b7503350fe77a.jpg",
     "static/media/railsLida.jpg": "/static/media/railsLida.9e07f861b914d423afb5.jpg",
+    "static/media/news5.pdf": "/static/media/news5.70101941e9114d12d5d0.pdf",
     "static/media/naftan.jpg": "/static/media/naftan.e7f4736bdd4fb59a5507.jpg",
     "static/media/minskEnergo.jpg": "/static/media/minskEnergo.3fb1c469918aed1d7b1a.jpg",
     "static/media/roadVileka.jpg": "/static/media/roadVileka.25b18aef5fd76054dfb6.jpg",
@@ -47,11 +48,11 @@
     "static/media/women.jpg": "/static/media/women.42b7d2b8db0d3f5f493d.jpg",
     "index.html": "/index.html",
     "main.db62923b.css.map": "/static/css/main.db62923b.css.map",
-    "main.9ac82f36.js.map": "/static/js/main.9ac82f36.js.map",
+    "main.8b9be1f2.js.map": "/static/js/main.8b9be1f2.js.map",
     "453.aa8a69d7.chunk.js.map": "/static/js/453.aa8a69d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db62923b.css",
-    "static/js/main.9ac82f36.js"
+    "static/js/main.8b9be1f2.js"
   ]
 }
