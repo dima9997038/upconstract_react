@@ -19,6 +19,7 @@ import news1 from './img/news/news1.pdf';
 import news2 from './img/news/news2.pdf';
 import news3 from './img/news/news3.pdf';
 import news4 from './img/news/news4.pdf';
+import news5 from './img/news/news5.pdf';
 
 // import coruption from './img/coruption/Appened.PDF'
 // import coruption2025 from './img/coruption/protocol2025.PDF'
@@ -65,6 +66,7 @@ function App() {
         <Route path="/news2" element={<FullPdfScroll pdfFile={news2} />} />
         <Route path="/news3" element={<FullPdfScroll pdfFile={news3} />} />
         <Route path="/news4" element={<FullPdfScroll pdfFile={news4} />} />
+        <Route path="/news5" element={<FullPdfScroll pdfFile={news5} />} />
         <Route path="/report_for_actioner2025" element={<FinDocPdfPage pdf={ReportForActioner}/>} />
         {/*<Route path="/coruptionAppend2025" element={<FinDocPdfPage pdf={coruption2025}/>} />*/}
         <Route path="/coruptionAppend2026" element={<FinDocPdfPage pdf={coruption2026}/>} />

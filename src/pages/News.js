@@ -18,7 +18,9 @@ function News(props) {
     function news4() {
         navigate("/news4")
     }
-
+    function news5() {
+        navigate("/news5")
+    }
 
     return (
         <>
@@ -60,7 +62,11 @@ function News(props) {
                             <td>26 апреля 2026г.</td>
                             <td><Button variant="link" className="me-3" onClick={news4}>Новость</Button></td>
                         </tr>
-
+                        <tr>
+                            <td>«День строителя»</td>
+                            <td>9 августа 2026г.</td>
+                            <td><Button variant="link" className="me-3" onClick={news5}>Новость</Button></td>
+                        </tr>
 
                         </tbody>
                     </Table>
