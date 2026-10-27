@@ -66,7 +66,7 @@ function FooterComponent(props) {
                                     <Link to="/profUnion">Профсоюзная жизнь</Link>
                                 </li>
                                 <li>
-                                    <Link to="/Actioner">Для акционеров</Link>
+                                    <Link to="/Actioner">Для акционера</Link>
                                 </li>
                                 {/*<li>*/}
                                 {/*    <a href="https://bsc.by/ru/page/ideologicheskaya-i-obshchestvennaya-rabota">*/}

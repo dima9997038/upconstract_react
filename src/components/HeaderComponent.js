@@ -37,7 +37,7 @@ function HeaderComponent(props) {
                                     <Link to="/companyInfo">Направления деятельности</Link>
                                 </li>
                                 <li>
-                                    <Link to="/Actioner">Для акционеров</Link>
+                                    <Link to="/Actioner">Для акционера</Link>
                                 </li>
                                 <li>
                                     <Link to="/profUnion">Профсоюзная жизнь</Link>
@@ -89,7 +89,7 @@ function HeaderComponent(props) {
                                 </li>
 
                                 <li>
-                                    <Link to="/Actioner">Для акционеров</Link>
+                                    <Link to="/Actioner">Для акционера</Link>
                                 </li>
                                 {/*<li>*/}
                                 {/*    <a href="https://ptm.by/storage/041225/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D0%B0%20%E2%84%96%201.pdf">*/}

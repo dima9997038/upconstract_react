@@ -20,7 +20,7 @@ function ForActioner(props) {
                     <Card className="shadow-sm border-primary">
                         <Card.Body>
                             <Card.Title className="text-center mb-4">
-                                <h4>Важное сообщение для акционеров и сотрудников</h4>
+                                <h4>Важное сообщение для акционера и сотрудников</h4>
                             </Card.Title>
 
                             <div className="alert alert-info" role="alert">
@@ -45,7 +45,7 @@ function ForActioner(props) {
                             </p>>
 
                             <div className="alert alert-warning mt-4" role="alert">
-                                <h4 className="alert-heading">ВНИМАНИЕ: Внеочередное собрание акционеров</h4>
+                                <h4 className="alert-heading">ВНИМАНИЕ: Внеочередное собрание акционера</h4>
                                 <hr />
                                 <p className="mb-0">
                                     <strong>20 февраля 2026 года</strong> состоится внеочередное общее собрание акционеров

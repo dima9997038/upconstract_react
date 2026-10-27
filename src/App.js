@@ -21,8 +21,6 @@ import news3 from './img/news/news3.pdf';
 import news4 from './img/news/news4.pdf';
 import news5 from './img/news/news5.pdf';
 
-// import coruption from './img/coruption/Appened.PDF'
-// import coruption2025 from './img/coruption/protocol2025.PDF'
 import coruption2026 from './img/coruption/protocol2026.pdf'
 import ProfUnion from "./pages/ProfUnion";
 import Corrumpere from "./pages/Corrumpere";
@@ -30,13 +28,13 @@ import PrivateQuestion from "./pages/PrivateQuestion";
 import ForActioner from "./pages/ForActioner";
 import Actioner from "./pages/Actioner";
 import ForActioner2 from "./pages/ForActioner2";
+import ForActioner3 from "./pages/ForActioner3";
 import ReportForActioner from "./img/financeDoc/report_for_actioner2025.pdf"
 import OrganizationsInfo from "./pages/OrganizationsInfo";
 import Management from "./pages/Management";
 import IdeologicalWork from "./pages/IdeologicalWork";
 import CompanyInfo from "./pages/CompanyInfo";
 import News from "./pages/News";
-import SinglePagePdf from "./pages/SinglePagePdf";
 import FullPdfScroll from "./pages/FullPdfScroll";
 
 function App() {
@@ -54,6 +52,7 @@ function App() {
         <Route path="/profUnion" element={<ProfUnion />} />
         <Route path="/forActioner" element={<ForActioner />} />
         <Route path="/forActioner2" element={<ForActioner2 />} />
+        <Route path="/forActioner3" element={<ForActioner3 />} />
         <Route path="/Actioner" element={<Actioner />} />
         <Route path="/coruption" element={<Corrumpere/>} />
         <Route path="/audit2023" element={<FinDocPdfPage pdf={audit2023Pdf}/>} />
